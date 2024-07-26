@@ -1,0 +1,14 @@
+{
+    "name": "mi-microservicio",
+    "version": "1.0.0",
+    "description": "Un simple microservicio dockerizado con Node.js y Express",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "base64-url": "^2.0.0"
+    }
+  }
+  

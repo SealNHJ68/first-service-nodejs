@@ -48,6 +48,7 @@ app.get('/saludo', async (req, res) => {
 });
 
 // Ruta para consultar datos
+// http://localhost:3000/usuarios
 app.get('/usuarios', async (req, res) => {
   try {
     const collection = db.collection('usuarios');

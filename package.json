@@ -4,11 +4,11 @@
     "description": "Un simple microservicio dockerizado con Node.js y Express",
     "main": "app.js",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "base64-url": "^2.0.0"
+        "base64-url": "^2.0.0",
+        "express": "^4.17.1",
+        "mongodb": "^6.8.0"
     }
-  }
-  
+}
